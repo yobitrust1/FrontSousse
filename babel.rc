@@ -1,0 +1,19 @@
+
+
+{
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ],
+	"plugins": [
+		[
+			"module-resolver",
+      "@babel/plugin-syntax-jsx"
+			{
+				"alias": {
+					"^react-native$": "react-native-web"
+				}
+			}
+		]
+	]
+}

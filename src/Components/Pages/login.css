@@ -1,0 +1,19 @@
+login {
+height: 10%;
+}
+.bg {
+background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+height: 100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.Box {
+  margin: 6px;
+  border: 1px black;
+}
+
+.Box_content {
+  font-size: 3px;
+  text-align: center;
+}
