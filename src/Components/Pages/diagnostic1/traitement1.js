@@ -14,6 +14,18 @@ import '../home.css';
 import Steps from "../../Form/Steps";
 import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody,  MDBBtn, MDBIcon, MDBModalFooter } from 'mdbreact';
 import InputRd from '../../Form/inputrd';
+import toast, { Toaster } from 'react-hot-toast';
+const notify = () => toast.success('Enregistrer', {
+  style: {
+    border: '1px solid #713200',
+    padding: '16px',
+    color: '#713200',
+  },
+  iconTheme: {
+    primary: '#713200',
+    secondary: '#FFFAEE',
+  },
+}); 
 let config = {
       num: [4, 7],
       rps: 0.1,
@@ -84,20 +96,21 @@ var handlePacttChange = (data) => {
         setTrait(true)
     else setTrait(false)
 }
-    var handleSubmitCarac = (item) => {
-        var values = {
-            type: item,
-            trait:trait,
-            dateD: dateD,
-            dateF: dateF,
-            pactt:pactt,
-            dosage:dosage,
-            autre:autre,
-        }
-        console.log(values)
-        props.addTraitment(props.patientList["cin"], values)
-
-    }
+var handleSubmitCarac = (item) => {
+  var values = {
+  type: item,
+  trait:trait,
+  dateD: dateD,
+  dateF: dateF,
+  pactt:pactt,
+  dosage:dosage,
+  autre:autre,
+  }
+  console.log(values)
+  props.addTraitment(props.patientList["cin"], values)
+ 
+  }
+  
     //functions
     return (
         <div className="landing-background16">
@@ -138,153 +151,153 @@ var handlePacttChange = (data) => {
                     <FormButton2 title="Lopinavir/ritonavir" onPress={() => setLop(!lop)}/>
                     {
                         lop === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("Lopinavir_ritonavir")} />
                         </div>
                     }
                     <FormButton2 title="Chloroquine phosphate" onPress={() => setChlo(!chlo)}/>
                     {
                         chlo === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("Chloroquine_phosphate")} />
                         </div>
                     }
                     <FormButton2 title="Hydroxy-Chloroquine " onPress={() => setHydro(!hydro)}/>
                     {
                         hydro === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("Hydroxy_Chloroquine")} />
                         </div>
                     }
                     <FormButton2 title="Azithromycine" onPress={() => setAzith(!azith)}/>
                     {
                         azith === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("Azithromycine")} />
                         </div>
                     }
                     <FormButton2 title="Remdesivir" onPress={() => setRem(!rem)}/>
                     {
                         rem === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("Remdesivir")} />
                         </div>
                     }
                     <FormButton2 title="O2" onPress={() => setOd(!od)}/>
                     {
                         od === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("O2")} />
                         </div>
                     }
                     <FormButton2 title="HFNC" onPress={() => setHfnc(!hfnc)}/>
                     {
                         hfnc === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("HFNC")} />
                         </div>
                     }
                     <FormButton2 title="CPAP" onPress={() => setCpap(!cpap)}/>
                     {
                         cpap === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("CPAP")} />
                         </div>
                     }
                     <FormButton2 title="VNI" onPress={() => setVni(!vni)}/>
                     {
                         vni === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("VNI")} />
                         </div>
                     }
                     <FormButton2 title="VMI" onPress={() => setVmi(!vmi)}/>
                     {
                         vmi === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("VMI")} />
                         </div>
                     }
                     <FormButton2 title="Paracétamol" onPress={() => setPara(!para)}/>
                     {
                         para === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("Paracetamol")} />
                         </div>
                     }
                     <FormButton2 title="Anti coagulant" onPress={() => setAnti(!anti)}/>
                     {
                         anti === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("Anti_coagulant")} />
                         </div>
                     }
                     <FormButton2 title="H2O" onPress={() => setHdo(!hdo)}/>
                     {
                         hdo === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("H2O")} />
                         </div>
                     }
                     <FormButton2 title="ADO" onPress={() => setAdo(!ado)}/>
                     {
                         ado === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("ADO")} />
                         </div>
                     }
                     <FormButton2 title="Insulinothérapie" onPress={() => setinsul(!insul)}/>
                     {
                         insul === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("Insulinotherapie")} />
                         </div>
                     }
                     <FormButton2 title="Nébulisation corticoïdes" onPress={() => setNebC(!nebC)}/>
                     {
                         nebC === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("Nebulisation_corticoides")} />
                         </div>
                     }
                     <FormButton2 title="Nébulisation bronchodilatateurs" onPress={() => setNebB(!nebB)}/>
                     {
                         nebB === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("Nebulisation_bronchodilatateurs")} />
                         </div>
                     }
                     <FormButton2 title="Amoxicilline/ Acide clavulanique" onPress={() => setAmoxi(!amoxi)}/>
                     {
                         amoxi === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("Amoxicilline")} />
                         </div>
                     }
                     <FormButton2 title="Cefotaxime" onPress={() => setCefo(!cefo)}/>
                     {
                         cefo === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("Cefotaxime")} />
                         </div>
                     }
                     <FormButton2 title="Ceftriaxone" onPress={() => setCeft(!ceft)}/>
                     {
                         ceft === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("Ceftriaxone")} />
                         </div>
                     }
                     <FormButton2 title="Autre" onPress={() => setAutreA(!autreA)}/>
                     {
                         autreA === true && <div>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Autre"onChangeText={handleAutreChange}/>
-                          <FormInput3 mask="aaaaaaaaaaa" placeholder="Dosage"onChangeText={handleDoseChange}/>
+                          <FormInput3  placeholder="Autre"onChangeText={handleAutreChange}/>
+                          <FormInput3  placeholder="Dosage"onChangeText={handleDoseChange}/>
                             <CaracCls dateD={dateD} dateF={dateF} setDateD={handledateD} setDateF={handledateF} onPress={ handleSubmitCarac("Autre")} />
                         </div>
                     }
                     
-
+ <div><Toaster /></div>
                 </div>
             }
                    <form class="row justify-content-center">

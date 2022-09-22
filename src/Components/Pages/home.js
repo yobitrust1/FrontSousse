@@ -52,11 +52,10 @@ const Home = (props) => {
 <div class=" d-flex align-items-center m-4 " >
 <div >
 
-<h1>Bienvenue a </h1>
-<h2>Plate-forme VRR-Sousse</h2>
+<h2>Plate-forme VRR-Sars-Cov</h2>
 <h2>et autre maladie infectieuse</h2>
 <MDBRow>
-<MDBCol md='2' onClick={() => props.navigation.navigate("AddPatient")}>
+<MDBCol md='2' >
         <MDBCard narrow>
           <MDBView cascade>
             <MDBCardImage
@@ -69,16 +68,16 @@ const Home = (props) => {
           </MDBView>
           <MDBCardBody>
             <h5 className='user-edit'>
-              <MDBIcon icon='fas fa-user-edit' /> Culinary
+              <MDBIcon icon='fas fa-user-edit' /> 
             </h5>
             <MDBCardTitle className='font-weight-bold'>
             Créer un dossier patient
             </MDBCardTitle>
-            <MDBBtn color='unique'>Suivant</MDBBtn>
+            <MDBBtn color='unique' onClick={() => props.navigation.navigate("AddPatient")}>Suivant</MDBBtn>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>
-<MDBCol md='2'onClick={() => props.navigation.navigate("SearchPatient")}>
+<MDBCol md='2'>
         <MDBCard narrow>
           <MDBView cascade>
             <MDBCardImage
@@ -91,12 +90,12 @@ const Home = (props) => {
           </MDBView>
           <MDBCardBody>
             <h5 className='user'>
-              <MDBIcon icon='fas fa-user' /> Culinary
+              <MDBIcon icon='fas fa-user' /> 
             </h5>
             <MDBCardTitle className='font-weight-bold'>
             Rechercher un dossier patient
             </MDBCardTitle>
-            <MDBBtn color='unique'>Suivant</MDBBtn>
+            <MDBBtn color='unique' onClick={() => props.navigation.navigate("SearchPatient")}>Suivant</MDBBtn>
             
           </MDBCardBody>
         </MDBCard>

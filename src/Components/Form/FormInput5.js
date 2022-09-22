@@ -8,8 +8,6 @@ const FormInput = (props) => {
     props.onChangeText(value)
   };
 
-  console.log(value);
-  console.log(typeof value);
 
   return (
 

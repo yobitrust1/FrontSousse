@@ -15,13 +15,12 @@ const Open = (props) => {
     <section className="landing-background">
 <div class=" d-flex align-items-center m-4 " style={{height: "550px"}}>
 <div >
-<h1>Bienvenue a </h1>
-<h2>Plate-forme VRR-Sousse</h2>
-<h2>et autre maladie infectieuse</h2>
+<h1>Plate-forme VRR-Sars-Cov</h1>
+<h1>et autre maladie infectieuse</h1>
 <Container class="rounded d-inline-flex p-2" style={{backgroundColor:"rgba(200,200,200,0.75)",backgroundsize: "cover"}} component="main"  >
 <div class="row d-flix justify-centent-center">
 <FormButton title="Admin" onPress={() => props.navigation.navigate("Admin")} />
-<FormButton title="login" onPress={() => props.navigation.navigate("Login")} />
+<FormButton title="User" onPress={() => props.navigation.navigate("Login")} />
 
 </div>
 </Container>

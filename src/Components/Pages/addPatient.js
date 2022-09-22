@@ -103,10 +103,12 @@ const AddPatient = (props) => {
     setVitSeul(data.target.value)
   }
 
+  var test=JSON.parse(localStorage.getItem("loggedUser"));
 
   var handleSubmit = (e) => {
     var values = {
       cin: cin,
+      cinD: test.username,
       matricule: matricule,
       identifiant:identifiant,
       nom: nom,
@@ -128,6 +130,7 @@ const AddPatient = (props) => {
     }
     e.preventDefault()
        props.cc(values)
+       console.log(values)
          props.navigation.navigate("SearchPatient1")
      }
   var handleExit = (e) => {
@@ -148,7 +151,7 @@ const AddPatient = (props) => {
         <MDBCol >
           <MDBCard style={{backgroundColor:"#c9cecb"}}>
           <form>
-          <h2 class="font-weight-bold text-center p-5 text-primary">Add Patient</h2>
+          <h2 class="font-weight-bold text-center p-5 text-primary">Ajouter un patient</h2>
           <FormInput3
           mask="999999999"
           placeholder="Cin"

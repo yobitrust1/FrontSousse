@@ -11,7 +11,6 @@ const FormInput = (props) => {
           placeholder={props.placeholder1} 
           min={props.min}
           max={props.max}
-          maxLength={10}
           onChange={(text) => props.onChangeText1(text.target.value)}/></div>
            / 
         <div>  <input class="form-control" 
@@ -19,7 +18,6 @@ const FormInput = (props) => {
           placeholder={props.placeholder2} 
           min={props.min}
           max={props.max}
-          maxLength={10}
           onChange={(text) => props.onChangeText2(text.target.value)}/></div>
                 </div>
 

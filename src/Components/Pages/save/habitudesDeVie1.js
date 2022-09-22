@@ -136,12 +136,23 @@ const HabitudesDeVie1 = (props) => {
                     <InputRd  id="45525" name1="Non" onChange={handleAlcoolChange} type="radio" value="Non" name="gender3" />
                     <InputRd  id="12556" name1="Oui" onChange={handleAlcoolChange} type="radio" value="Oui" name="gender3" />
                     </div>
-                    <FormInput3 mask="999" placeholder="Poids"
-                    onChangeText={handlePoidsChange} />
-                <FormInput3 mask="999" placeholder="Taille"
-                    onChangeText={handleTailleChange} />
-                <FormInput placeholder="GS"
-                    onChangeText={handleGsChange} />
+                    
+                    <FormInput5 placeholder="Poids"
+                                min={0}   
+                                max={500}
+                                onChangeText={handlePoidsChange}
+                            />
+                    <FormInput5 placeholder="Taille (cm)"
+                                min={0}   
+                                max={2000}
+                                onChangeText={handleTailleChange}
+                            />
+                    <FormInput5 placeholder="GS"
+                                min={0}   
+                                max={1000}
+                                onChangeText={handleGsChange}
+                            />
+               
                     <form class="row justify-content-center">
                     <FormButton title="Annuler" onPress={() => { props.navigation.navigate("AddAntecendentsMedicaux1") }} />
                     <FormButton title="Enregistrer" onPress={handleSubmit} />

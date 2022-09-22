@@ -1,6 +1,26 @@
 import React from "react";
-import Chart  from 'chart.js';
+import Chart from 'chart.js/auto';
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+} from 'chart.js'
+import { Line } from "react-chartjs-2";
 import { MDBContainer } from "mdbreact";
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend
+)
 
 class SplineChart extends React.Component {
 	
@@ -241,7 +261,7 @@ class SplineChart extends React.Component {
 		}
     return (
       <MDBContainer>
-        <Chart type='line' data={stat.dataLine} options={{ responsive: true }} />
+        <Line data={stat.dataLine} options={{ responsive: true }} />
       </MDBContainer>
     );
   }

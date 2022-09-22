@@ -59,7 +59,7 @@ const AddAntecendentsMedicaux1 = (props) => {
           <form class="row justify-content-center">
           <FormButton title="Retour1" onPress={() => { props.navigation.navigate("Exposition1") }} />
           <FormButton title="Suivant" onPress={() => { props.navigation.navigate(nextPath) }} />
-          <FormButton title="Suivant" onPress={() => { props.navigation.navigate("HabitudesDeVie1") }} />
+          <FormButton title="Pass" onPress={() => { props.navigation.navigate("HabitudesDeVie1") }} />
           </form>
            </form> 
             

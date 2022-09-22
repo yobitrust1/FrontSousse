@@ -40,8 +40,7 @@ const HomeAdmin = (props) => {
       <div class="big">
       <View style={tailwind(' items-center mt-10')} >
       <View style={tailwind(' items-center ')} >
-        <Text style={tailwind('text-gray-700 font-bold py-2 text-9xl')}>Bienvenue a </Text>
-        <Text style={tailwind('text-gray-700 font-bold py-2 text-9xl')}>Plate-forme VRR-Sousse</Text>
+        <Text style={tailwind('text-gray-700 font-bold py-2 text-9xl')}>Plate-forme VRR-Sars-Cov</Text>
         <Text style={tailwind('text-gray-700 font-bold py-2 text-9xl')}>et autre maladie infectieuse Admin</Text>
         </View>
         <View style={tailwind('py-4')}>

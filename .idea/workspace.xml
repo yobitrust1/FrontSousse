@@ -2,154 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32ca9e5f-372a-4520-86ff-231b8bd345fd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.44bacfe6.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.44bacfe6.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.f24c27ed.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.f24c27ed.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.f24c27ed.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/3.578886c9.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/3.578886c9.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.52a42b19.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.52a42b19.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.12a51918.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.12a51918.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/apathy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/ashes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/atelier-dune.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/atelier-forest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/atelier-heath.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/atelier-lakeside.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/atelier-seaside.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/bespin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/brewer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/bright.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/chalk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/codeschool.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/colors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/default.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/eighties.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/embers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/flat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/google.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/grayscale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/greenscreen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/harmonic.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/hopscotch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/isotope.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/marrakesh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/mocha.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/monokai.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/ocean.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/paraiso.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/pop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/railscasts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/shapeshifter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/solarized.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/summerfruit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/threezerotwofour.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/tomorrow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/tube.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/lib/twilight.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/base16/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/ciecam.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/cmy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/cmyk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/coloroid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/cubehelix.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/hcg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/hcy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/hpluv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/hsi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/hsl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/hsluv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/hsp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/hsv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/hwb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/jpeg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/lab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/labh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/lchab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/lchuv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/lms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/luv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/munsell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/osaucs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/rgb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/tsl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/ucs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/uvw.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/xvycc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/xyy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/xyz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/ycbcr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/yccbccrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/ycgco.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/ydbdr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/yes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/yiq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/ypbpr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/color-space/yuv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/lodash.flow/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/lodash.flow/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/lodash.flow/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/lodash.flow/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/cmyk2rgb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/hsl2hsv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/hsl2rgb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/hsl2string.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/hsv2hsl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/hsv2rgb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/hwb2rgb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/lab2lch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/lab2xyz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/lch2lab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/rgb2cmyk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/rgb2grayscale.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/rgb2hex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/rgb2hsl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/rgb2hsv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/rgb2hwb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/rgb2lab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/rgb2string.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/rgb2xyz.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/xyz2lab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/convert/xyz2rgb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/parse/extractComponents.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/parse/hex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/parse/hsl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/parse/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/parse/rgb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/test/convert.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/test/fixtures/convert.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/test/fixtures/parse.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/test/parse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/util/clamp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/react-native-json-tree/node_modules/react-base16-styling/node_modules/pure-color/util/compose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.d220b464.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.d220b464.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.d220b464.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/3.e04b7c0c.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/3.e04b7c0c.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.1b4594fd.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.1b4594fd.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.47d5188f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.47d5188f.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Actions/apiMedicalService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/apiMedicalService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Form/FormInput2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Form/FormInput2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Form/FormInput5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Form/FormInput5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Form/SplineChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Form/SplineChart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/addAntecedentsMedicaux.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/addAntecedentsMedicaux.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/addPatient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/addPatient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/admin/Admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/admin/Admin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/admin/homeAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/admin/homeAdmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/antecedentsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/antecedentsList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/json/json8.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/json/json8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Pages/open.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/open.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/save/addAntecedentsMedicaux1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/save/addAntecedentsMedicaux1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/save/searchPatient1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/save/searchPatient1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Pages/searchPatient.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Pages/searchPatient.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,12 +48,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

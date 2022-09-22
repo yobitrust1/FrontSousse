@@ -76,6 +76,7 @@ const AntecedentsList = (props) => {
   return (
 
     <>
+    
     <section className="landing-background">
 <div class=" d-flex align-items-center m-4 " >
 <MDBContainer  style={{height: "350px"}}>
@@ -92,7 +93,7 @@ const AntecedentsList = (props) => {
 
           </View>
           ))}
-
+<FormButton title="Retour" onPress={() => { props.navigation.navigate("PatientDetails") }} />
         </View>
 
 </div>

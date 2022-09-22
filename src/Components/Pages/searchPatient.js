@@ -56,10 +56,10 @@ const SearchPatient = (props) => {
         <MDBCol md="6">
           <MDBCard>
           <form>
-          <h2 class="font-weight-bold text-center p-5 text-primary">Search Patient</h2>
+          <h2 class="font-weight-bold text-center p-5 text-primary">Rechercher un patient</h2>
           <FormInput5
             placeholder="Search...Type CIN"
-            min={0}   max={1000000000} 
+            min={0}   max={2000000000} 
             onChangeText={handleSearchChange}
             maxLength={Number("8")}
           />
@@ -72,8 +72,8 @@ const SearchPatient = (props) => {
                   <label class="form-label mx-4">Nom:{props.patientList["generalInformation"]["nom"]}</label>
                   <label class="form-label mx-4">prenom:{props.patientList["generalInformation"]["prenom"]}</label>
                     <FormButton title="Details" onPress={() => { props.navigation.navigate("PatientDetails") }} />
-                    <FormButton title="Json" onPress={() => { props.navigation.navigate("Json1") }} />
-                    <FormButton title="Information" onPress={() => { props.navigation.navigate("Info") }} />
+                    <FormButton title="Dashbord" onPress={() => { props.navigation.navigate("Json1") }} />
+                    <FormButton title="Dashbord1" onPress={() => { props.navigation.navigate("Info") }} />
                     <FormButton title="Save File" onPress={() => { props.navigation.navigate("Dash1") }} />
                   </div>
 

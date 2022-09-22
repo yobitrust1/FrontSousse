@@ -57,13 +57,12 @@ const SearchPatient1 = (props) => {
         <MDBCol md="6">
           <MDBCard>
           <form>
-          <h2 class="font-weight-bold text-center p-5 text-primary">Search Patient</h2>
-          
+          <h2 class="font-weight-bold text-center p-5 text-primary">Rechercher un patient</h2>
           <FormInput5
             placeholder="Search...Type CIN"
             onChangeText={handleSearchChange}
             
-            min={0}   max={1000000000}       />
+            min={0}   max={2000000000}       />
           <FormButton title="Rechercher" onPress={handleSearch} />
           <label class="form-label mx-4">
               {(search2 != 0) && ((typeof (props.patientList) === 'string' && props.patientList) ||
