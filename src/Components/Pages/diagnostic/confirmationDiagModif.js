@@ -29,10 +29,10 @@ let config = {
     };
 
 const ConfirmationDiag = (props) => {
-  const [test, setTest] = useState("Pcr")
-  const [datePr, setDatePr] = useState()
-  const [type, setType] = useState("Nasopharyngé")
-  const [resultat, setResultat] = useState("Positif")
+  const [test, setTest] = useState(localStorage.getItem("type"))
+  const [datePr, setDatePr] = useState(localStorage.getItem("datePr"))
+  const [type, setType] = useState("")
+  const [resultat, setResultat] = useState("")
   var handleTypeSdate = (data) => {
     setDatePr(data.target.value)
 
@@ -93,32 +93,9 @@ const ConfirmationDiag = (props) => {
           <MDBCard style={{backgroundColor:"#c9cecb"}}>
           <form>
           <h2 class="font-weight-bold text-center p-5 text-primary">Confirmation diagnostique</h2>
-          <label class="form-label mx-3">Niveau d'étude ?</label>
-          <div class="row mx-4 p-3">
-          <div class="form-check mx-1">
-          <label class="form-check-label" for="Pcr">
-          <input  class="form-check-input" id="Pcr" onChange={handleTestChange} type="radio" value="Pcr" name="gender" />PCR
-          </label>
-          </div>
-          <div class="form-check mx-1">
-          <label class="form-check-label" for="RapideAc">
-          <input  class="form-check-input" id="RapideAc" onChange={handleTestChange} type="radio" value="RapideAc" name="gender" />Test rapide AC
-          </label>
-          </div>
-          <div class="form-check mx-1">
-          <label class="form-check-label" for="RapideAg">
-          <input  class="form-check-input" id="RapideAg" onChange={handleTestChange} type="radio" value="RapideAg" name="gender" />Test rapide AG
-          </label>
-          </div>
-          <div class="form-check mx-1">
-          <label class="form-check-label" for="Serologie">
-          <input  class="form-check-input" id="Serologie" onChange={handleTestChange} type="radio" value="Serologie" name="gender" />Sérologie
-          </label>
-          </div>
-          </div>
+         
           {test === "Pcr" && <div>
-          <label class="form-label mx-4">Date de prise ?</label>
-      <input class="border border-primary"  type="date" data-date="" data-date-format="DD MMMM YYYY" onChange={handleTypeSdate}/>
+          
         <div>
         <label class="form-label mx-3 p-3">Type ?</label>
         <div class="row mx-4 p-3">
@@ -164,8 +141,6 @@ const ConfirmationDiag = (props) => {
         </div>
       </div> }
       {test === "RapideAc" && <div>
-      <label class="form-label mx-4 p-4">Date de prise ?</label>
-      <input class="border border-primary" type="date" data-date="" data-date-format="DD MMMM YYYY" onChange={handleTypeSdate1}/>
       <div class="row mx-4 p-3">
         <label class="form-label mx-3 p-3">Resultat ?</label>
         <div class="form-check mx-1">
@@ -187,8 +162,6 @@ const ConfirmationDiag = (props) => {
       </div>
       }
       {test === "RapideAg" && <div>
-      <label class="form-label mx-4">Date de prise ?</label>
-      <input class="border border-primary" type="date" data-date="" data-date-format="DD MMMM YYYY" onChange={handleTypeSdate2}/>
       <div class="row mx-4 p-3">
         <label class="form-label mx-3">Resultat ?</label>
         <div class="form-check mx-1">
@@ -210,8 +183,6 @@ const ConfirmationDiag = (props) => {
       </div>
       }
       {test === "Serologie" && <div>
-      <label class="form-label mx-4">Date de prise ?</label>
-      <input class="border border-primary"  type="date" data-date="" data-date-format="DD MMMM YYYY" onChange={handleTypeSdate3}/>
       <div class="row mx-4 p-3">
         <label class="form-label mx-3">Resultat ?</label>
         <div class="form-check mx-1">

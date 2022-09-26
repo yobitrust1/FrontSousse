@@ -56,10 +56,10 @@ const ConfirmationDiag = (props) => {
   var handleSubmit = (e) => {
     e.preventDefault();
     var values = {
-      test: test,
+      test: type,
       datePr: datePr,
       result: resultat,
-      type: type
+      type: test
     }
     //console.log(values)
     props.addConfDiag(props.patientList["cin"], values)

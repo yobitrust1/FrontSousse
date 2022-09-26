@@ -100,7 +100,7 @@ const ATCDchir1 = (props) => {
           <MDBCard>
           <form>
           <div class="row justify-content-center">
-          <FormButton2 title="Confirmation diagnostique" onPress={() => { props.navigation.navigate("ConfirmationDiag") }} />
+          <FormButton2 title="Confirmation diagnostique" onPress={() => { props.navigation.navigate("ConfirmationDiagOpen") }} />
           <FormButton2 title="Supprimer" i="col-sm-2 fas fa-trash-alt" onPress={() => { handleSubmit(); notify();}} /></div>
           <div class="row justify-content-center">
           <FormButton2 title="Admission" onPress={() => { props.navigation.navigate("Admission") }} />
@@ -112,10 +112,10 @@ const ATCDchir1 = (props) => {
           <FormButton2 title="Examens cliniques" onPress={() => { props.navigation.navigate("ExamenCliniques") }} />
           <FormButton2 title="Supprimer" i="col-sm-2 fas fa-trash-alt" onPress={() => { handleSubmit3(); notify();}} /></div>
           <div class="row justify-content-center">
-          <FormButton2 title="Examens radiologiques et para-cliniques" onPress={() => props.navigation.navigate("ExamenRadioParaCli")} />
+          <FormButton2 title="Examens radiologiques et para-cliniques" onPress={() => props.navigation.navigate("ExamenRadioParaCliOpen")} />
           <FormButton2 title="Supprimer" i="col-sm-2 fas fa-trash-alt" onPress={() => { handleSubmit4(); notify();}} /></div>
           <div class="row justify-content-center">
-          <FormButton2 title="Examens biologiques" onPress={() => props.navigation.navigate("ExamBio")} />
+          <FormButton2 title="Examens biologiques" onPress={() => props.navigation.navigate("ExamBioOpen")} />
           <FormButton2 title="Supprimer" i="col-sm-2 fas fa-trash-alt" onPress={() => { handleSubmit5(); notify();}} /></div>
           <div class="row justify-content-center">
           <FormButton2 title="Traitement" onPress={()=>props.navigation.navigate("Traitement")}/>

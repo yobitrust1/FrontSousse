@@ -91,8 +91,16 @@ import EvaluationFinale1 from "./Components/Pages/diagnostic1/evaluationFinale1"
 import ExamBio1 from "./Components/Pages/diagnostic1/examBio1";
 import Traitement1 from "./Components/Pages/diagnostic1/traitement1";
 import Evolution1 from "./Components/Pages/diagnostic1/evolution1";
-
+import ExamBioList from "./Components/Pages/diagnostic/examBioList";
+import ExamBioOpen from "./Components/Pages/diagnostic/examBioOpen";
+import ExamenRadioParaCliList from "./Components/Pages/diagnostic/examenRadioParaCliList";
+import ExamenRadioParaCliOpen from "./Components/Pages/diagnostic/examenRadioParaCliOpen";
+import ConfirmationDiagList from "./Components/Pages/diagnostic/confirmationDiagList";
+import ConfirmationDiagOpen from "./Components/Pages/diagnostic/confirmationDiagOpen";
 import InfosGenerales2 from "./Components/Pages/info/infosGenerales2";
+import confirmationDiagModif from "./Components/Pages/diagnostic/confirmationDiagModif";
+import examBioModif from "./Components/Pages/diagnostic/examBioModif";
+import examenRadioParaCliModif from "./Components/Pages/diagnostic/examenRadioParaCliModif";
 const App = () => {
   const Stack = createStackNavigator()
   return (
@@ -192,7 +200,15 @@ const App = () => {
           <Stack.Screen name="Traitement1" component={Traitement1}/>
           <Stack.Screen name="Evolution1" component={Evolution1}/>
           <Stack.Screen name="AntecedentsList" component={AntecedentsList}/>
-
+          <Stack.Screen name="ExamBioList" component={ExamBioList} />
+          <Stack.Screen name="ConfirmationDiagOpen" component={ConfirmationDiagOpen} />
+          <Stack.Screen name="ConfirmationDiagList" component={ConfirmationDiagList} />
+          <Stack.Screen name="ExamenRadioParaCliOpen" component={ExamenRadioParaCliOpen} />
+          <Stack.Screen name="ExamenRadioParaCliList" component={ExamenRadioParaCliList} />
+          <Stack.Screen name="ExamBioOpen" component={ExamBioOpen} />
+          <Stack.Screen name="confirmationDiagModif" component={confirmationDiagModif} />
+          <Stack.Screen name="examBioModif" component={examBioModif} />
+          <Stack.Screen name="examenRadioParaCliModif" component={examenRadioParaCliModif} />
           <Stack.Screen name="InfosGenerales2" component={InfosGenerales2} />
         </Stack.Navigator>
 
