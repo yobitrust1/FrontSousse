@@ -10,7 +10,7 @@ import JSONViewer from 'react-json-viewer';
 import Scroll from "react-scroll";
 import {MDBBtn } from 'mdbreact';
 var Element = Scroll.Element;
-const Json7 = (props) => {
+const Json4 = (props) => {
   let config = {
         num: [4, 7],
         rps: 0.1,
@@ -39,33 +39,59 @@ const Json7 = (props) => {
         "Immunosuppreseur": "Traitement immunosuppreseur",
         "AutresATCD": "Autres ATCD"
       }
-      
-      const test =props.patientList.examenCli;
+      const sampleJSON = {
+        "object": {
+          "name": "Pluralsight",
+          "number": 1,
+          "address": "India",
+          "website": "https://www.pluralsight.com/"
+        }
+      }
+      const test =props.patientList.examRadio_paraCli;
       return (
         <div> 
-  <h2 class="font-weight-bold text-center p-5 text-primary"> examenCli</h2>
-<div class="row">
-  {test!=null&&
-        Object.keys(test).map((key, i) => (
-          <div class="col-xl-3 col-sm-6 col-12 mb-4 p-3">
-            <div class="card">
+  <h2 class="font-weight-bold text-center p-5 text-primary">Examens radiologiques et para-cliniques</h2>
+  <div>
+  {
+        Object.keys(test).map((setNom, key) => (
+         
+   <div> 
+                    <h3 class="d-flex justify-content-between px-md-1">{setNom}</h3>
+    <div >
+  {test[setNom]!=null&&
+        Object.keys(test[setNom]).map((key1, i) => (
+          <div class="justify-content">
+            {Object.keys(test[setNom][key1]).map((key2, i1)=> (
+          <div class="container">
+            {key2!="pcrs"&&key2!="rapideAcs"&& key2!="rapideAgs"&& key2!="serologies"&&
+           <div class="row"><div class="col-sm mb-4 p-3"> <div class="card">
               <div class="card-body">
                 <div class="d-flex justify-content-between px-md-1">
                   <div class="align-self-center">
                     <i class="fab fa-buffer text-info fa-3x"></i>
                   </div>
                   <div class="text-end">
-                    <h3 class="d-flex justify-content-between px-md-1">{key}</h3>
-                    <p class="mb-0">{String(test[key])}</p>
+                    <h3 class="d-flex justify-content-between px-md-1">{key2}</h3>
+                    <p class="mb-0">{String(test[setNom][key1][key2])}</p>
+
                   </div>
                 </div>
-              </div>
+                </div>
+                </div>
+                </div>
             </div>
-          </div>
-        ))
-      }
+          }</div>
+          ))}</div>
+        ))}
 
               </div> 
+    </div>
+    
+        ))
+}
+  </div>
+
+ 
               <div class="row justify-content-center">
               <MDBBtn type="button" gradient="blue" rounded className="btn px-md-5 z-depth-1a"onClick={() => props.navigation.navigate("Json6")}><h3>Retour</h3></MDBBtn>
               <MDBBtn type="button" gradient="blue" rounded className="btn px-md-5 z-depth-1a"onClick={() => props.navigation.navigate("Json8")}><h3>Suivant</h3></MDBBtn>
@@ -87,4 +113,4 @@ const Json7 = (props) => {
       backgroundColor: '#2193b0',
     },
   });
-  export default connect(mapStateToProps, mapActionToProps)(Json7);
+  export default connect(mapStateToProps, mapActionToProps)(Json4);

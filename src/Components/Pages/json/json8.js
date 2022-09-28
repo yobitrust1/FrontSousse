@@ -10,7 +10,6 @@ import JSONViewer from 'react-json-viewer';
 import Scroll from "react-scroll";
 import {MDBBtn } from 'mdbreact';
 import SplineChart from '../../Form/SplineChart';
-
 var Element = Scroll.Element;
 const Json8 = (props) => {
   let config = {

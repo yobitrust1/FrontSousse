@@ -58,7 +58,7 @@ const Json3 = (props) => {
    <div> <h1>{setNom}
     </h1>
     <div class="row">
-  {
+  {test[setNom]!=null&&
         Object.keys(test[setNom]).map((key, i) => (
           <div class="col-xl-3 col-sm-6 col-12 mb-4 p-3">
             <div class="card">

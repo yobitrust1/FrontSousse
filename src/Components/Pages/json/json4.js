@@ -56,27 +56,33 @@ const Json4 = (props) => {
         Object.keys(test).map((setNom, key) => (
          
    <div> 
-    <div class="row">
-  {test!=null&&
-        Object.keys(test[setNom]).map((key, i) => (
-          <div class="col-xl-3 col-sm-6 col-12 mb-4 p-3">
-            <div class="card">
+                    <h3 class="d-flex justify-content-between px-md-1">{setNom}</h3>
+    <div >
+  {test[setNom]!=null&&
+        Object.keys(test[setNom]).map((key1, i) => (
+          <div class="justify-content">
+            {Object.keys(test[setNom][key1]).map((key2, i1)=> (
+          <div class="container">
+            {key2!="pcrs"&&key2!="rapideAcs"&& key2!="rapideAgs"&& key2!="serologies"&&
+           <div class="row"><div class="col-sm mb-4 p-3"> <div class="card">
               <div class="card-body">
                 <div class="d-flex justify-content-between px-md-1">
                   <div class="align-self-center">
                     <i class="fab fa-buffer text-info fa-3x"></i>
                   </div>
                   <div class="text-end">
-                    <h3 class="d-flex justify-content-between px-md-1">{key}</h3>
-                    <p class="mb-0">{String(test[setNom][key])}</p>
+                    <h3 class="d-flex justify-content-between px-md-1">{key2}</h3>
+                    <p class="mb-0">{String(test[setNom][key1][key2])}</p>
 
                   </div>
                 </div>
-              </div>
+                </div>
+                </div>
+                </div>
             </div>
-          </div>
-        ))
-      }
+          }</div>
+          ))}</div>
+        ))}
 
               </div> 
     </div>
